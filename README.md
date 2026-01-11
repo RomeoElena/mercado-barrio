@@ -1,6 +1,7 @@
 # Mercado de Barrio "La Alhóndiga"
 
 **Sitio web informativo del Mercado de Barrio La Alhóndiga**
+https://romeoelena.github.io/mercado-barrio/index.html
 
 ---
 
@@ -215,24 +216,24 @@ font-family: Georgia, "Times New Roman", Times, serif;
 
 **Página de Inicio:**
 
-- Performance: /100
-- Accessibility: /100
-- Best Practices: /100
-- SEO: /100
+- Performance: 100/100
+- Accessibility: 92/100
+- Best Practices: 100/100
+- SEO: 100/100
 
 **Página de Puestos:**
 
-- Performance: /100
-- Accessibility: /100
-- Best Practices: /100
-- SEO: /100
+- Performance: 100/100
+- Accessibility: 93/100
+- Best Practices: 100/100
+- SEO: 100/100
 
 **Página de Contacto:**
 
-- Performance: /100
-- Accessibility: /100
-- Best Practices: /100
-- SEO: /100
+- Performance: 100/100
+- Accessibility: 94/100
+- Best Practices: 100/100
+- SEO: 100/100
 
 ---
 
@@ -347,3 +348,4 @@ Reto 1 - Primer Trimestre
 Este proyecto es un trabajo académico para el módulo de Diseño de Interfaces Web.
 
 ---
+
