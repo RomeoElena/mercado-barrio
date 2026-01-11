@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Contacta con el Mercado La Alhóndiga. Estamos aquí para ayudarte. Teléfono, email y formulario de contacto.">
+  <title>Contacto | Mercado La Alhóndiga</title>
+  <link rel="icon" href="../img/favicon-shop.png" type="image/x-icon">
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-container">
+      <div class="logo">
+        <img src="../img/logo.png" alt="Logo Mercado La Alhóndiga">
+        <h1>Mercado La Alhóndiga</h1>
+        </a>
+      </div>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="index.html" class="nav-link">Inicio</a></li>
+          <li class="nav-item"><a href="puestos.html" class="nav-link">Puestos</a></li>
+          <li class="nav-item"><a href="contacto.html" class="nav-link active">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="contacto-section">
+      <div class="container">
+        <h1 class="page-title">Contacta con Nosotros</h1>
+        <p class="page-subtitle">¿Tienes alguna consulta? Estamos aquí para ayudarte. Rellena el formulario y te
+          responderemos lo antes posible.</p>
+
+        <div class="contacto-layout">
+          <div class="contacto-form-wrapper">
+            <h2 class="subsection-title">Formulario de Contacto</h2>
+            <form class="contacto-form" method="post" action="">
+              <div class="form-group">
+                <label for="nombre" class="form-label">Nombre completo *</label>
+                <input type="text" id="nombre" name="nombre" class="form-input" required
+                  placeholder="Escribe tu nombre completo">
+              </div>
+
+              <div class="form-group">
+                <label for="email" class="form-label">Correo electrónico *</label>
+                <input type="email" id="email" name="email" class="form-input" required
+                  placeholder="ejemplo@correo.com">
+              </div>
+
+              <div class="form-group">
+                <label for="mensaje" class="form-label">Mensaje *</label>
+                <textarea id="mensaje" name="mensaje" class="form-textarea" rows="6" required
+                  placeholder="Escribe tu mensaje aquí..."></textarea>
+              </div>
+
+              <div class="form-group form-checkbox-group">
+                <input type="checkbox" id="privacidad" name="privacidad" class="form-checkbox" required>
+                <label for="privacidad" class="form-checkbox-label">Acepto la <a href="#">política de privacidad</a>
+                  *</label>
+              </div>
+
+              <div class="form-submit">
+                <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+              </div>
+            </form>
+          </div>
+
+          <aside class="contacto-info contacto-form-wrapper">
+            <h2 class="subsection-title">Información de Contacto</h2>
+
+            <div class="info-content">
+              <section class="info-block">
+                <h3 class="info-title">📍 Dirección</h3>
+                <p>Calle Arco, 123<br>28000 Madrid, España</p>
+              </section>
+
+              <section class="info-block">
+                <h3 class="info-title">📞 Teléfono</h3>
+                <p><a href="tel:+34911222333" class="info-link">+34 911 222 333</a></p>
+              </section>
+
+              <section class="info-block">
+                <h3 class="info-title">✉️ Email</h3>
+                <p><a href="mailto:info@mercadoalhondiga.es" class="info-link">info@mercadoalhondiga.es</a></p>
+                <p class="info-detail">Respuesta en 24-48h</p>
+              </section>
+
+              <section class="info-block">
+                <h3 class="info-title">⏰ Horarios</h3>
+                <ul class="info-hours">
+                  <li><strong>Lunes a Viernes:</strong> 8:00 - 20:00</li>
+                  <li><strong>Sábados:</strong> 8:00 - 14:00</li>
+                  <li><strong>Dom. y festivos:</strong> Cerrado</li>
+                </ul>
+              </section>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <p>&copy; 2026 Mercado de Barrio La Alhóndiga. Creado por Elena Bragado Romeo</p>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
