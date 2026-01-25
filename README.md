@@ -5,22 +5,22 @@ https://romeoelena.github.io/mercado-barrio/index.html
 
 ---
 
-## 📋 Resumen del Proyecto
+## Resumen del Proyecto
 
 Este proyecto consiste en el diseño e implementación de un sitio web para el Mercado de Barrio "La Alhóndiga", un mercado tradicional del barrio con más de 35 años de historia. El sitio tiene como objetivo presentar el mercado, mostrar los puestos disponibles y facilitar el contacto con los vecinos.
 
 ### Características principales:
 
-- ✅ Diseño responsive (móvil, tablet, desktop)
-- ✅ Accesibilidad WCAG 2.1 Nivel A
-- ✅ HTML5 semántico
-- ✅ CSS vanilla (sin frameworks)
-- ✅ Validación HTML5 de formularios
-- ✅ 10 puestos con categorización visual
+- Diseño responsive (móvil, tablet, desktop)
+- Accesibilidad WCAG 2.1 Nivel A
+- HTML5 semántico
+- CSS vanilla (sin frameworks)
+- Validación HTML5 de formularios
+- 10 puestos con categorización visual
 
 ---
 
-## 🗺️ Mapa del Sitio
+## Mapa del Sitio
 
 ```
 Mercado La Alhóndiga
@@ -75,7 +75,7 @@ Mercado La Alhóndiga
 
 ---
 
-## 🎨 Decisiones de Diseño
+## Decisiones de Diseño
 
 ### Paleta de Colores
 
@@ -153,46 +153,46 @@ font-family: Georgia, "Times New Roman", Times, serif;
 
 ---
 
-## ♿ Accesibilidad
+## Accesibilidad
 
 ### Cumplimiento WCAG 2.1 Nivel A
 
-✅ **Contraste de color:**
+**Contraste de color:**
 
 - Texto normal: 4.5:1 mínimo
 - Texto grande: 3:1 mínimo
 - Verificado con herramientas de contraste
 
-✅ **Navegación por teclado:**
+**Navegación por teclado:**
 
 - Todos los elementos interactivos accesibles con Tab
 - Focus visible con outline de 2px
 - Orden lógico de tabulación
 
-✅ **Estructura semántica:**
+**Estructura semántica:**
 
 - Header, nav, main, section, article, aside, footer
 - Jerarquía de encabezados sin saltos (H1 → H2 → H3)
 - Un solo H1 por página
 
-✅ **Imágenes:**
+**Imágenes:**
 
 - Alt descriptivo en todas las imágenes
 - Alt="" en imágenes decorativas (si las hubiera)
 
-✅ **Formularios:**
+**Formularios:**
 
 - Labels asociados con for e id
 - Required para campos obligatorios
 - Type="email" para validación automática
 
-✅ **Idioma:**
+**Idioma:**
 
 - `<html lang="es">` declarado
 
 ---
 
-## ✅ Validaciones
+## Validaciones
 
 ### W3C HTML Validator
 
@@ -200,9 +200,9 @@ font-family: Georgia, "Times New Roman", Times, serif;
 
 **URL de validación:**
 
-- index.html: ✅ Válido
-- puestos.html: ✅ Válido
-- contacto.html: ✅ Válido
+- index.html: Válido
+- puestos.html: Válido
+- contacto.html: Válido
 
 ### W3C CSS Validator
 
@@ -210,7 +210,7 @@ font-family: Georgia, "Times New Roman", Times, serif;
 
 **URL de validación:**
 
-- styles.css: ✅ Válido
+- styles.css: Válido
 
 ### Lighthouse (Chrome DevTools)
 
@@ -237,21 +237,21 @@ font-family: Georgia, "Times New Roman", Times, serif;
 
 ---
 
-## 📱 Responsive Design
+## Responsive Design
 
 ### Pruebas realizadas:
 
-✅ **Desktop:**
+**Desktop:**
 
 - 1920x1080px (Full HD)
 - 1366x768px (HD estándar)
 
-✅ **Tablet:**
+**Tablet:**
 
 - 768x1024px (iPad)
 - 1024x768px (iPad horizontal)
 
-✅ **Móvil:**
+**Móvil:**
 
 - 375x667px (iPhone SE)
 - 414x896px (iPhone 11)
@@ -267,7 +267,7 @@ font-family: Georgia, "Times New Roman", Times, serif;
 
 ---
 
-## 🛠️ Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 - **HTML5** (semántico)
 - **CSS3** (vanilla, sin frameworks)
@@ -275,63 +275,23 @@ font-family: Georgia, "Times New Roman", Times, serif;
 
 **NO se utiliza:**
 
-- ❌ JavaScript
-- ❌ Frameworks CSS (Bootstrap, Tailwind, etc.)
-- ❌ Preprocesadores (Sass, Less)
-- ❌ Librerías externas
+- JavaScript
+- Frameworks CSS (Bootstrap, Tailwind, etc.)
+- Preprocesadores (Sass, Less)
+- Librerías externas
 
 ---
 
-## 📂 Estructura de Archivos
+## Objetivos Cumplidos
 
-```
-Reto_MercadoBarrio_TuNombreApellidos/
-│
-├── DEF_MercadoBarrio.pdf
-│
-├── wireframes/
-│   ├── inicio.pdf
-│   ├── puestos.pdf
-│   └── contacto.pdf
-│
-├── docs_semantica/
-│   └── mapeo_html5_tabla.pdf
-│
-├── src/
-│   ├── index.html
-│   ├── puestos.html
-│   ├── contacto.html
-│   │
-│   ├── css/
-│   │   └── styles.css
-│   │
-│   └── img/
-│       ├── fruteria-pepe.jpg
-│       ├── carniceria-hermanos.jpg
-│       ├── pescaderia-mar.jpg
-│       ├── panaderia-san-isidro.jpg
-│       ├── verduras-huerta.jpg
-│       ├── queseria-artesana.jpg
-│       ├── polleria-gallega.jpg
-│       ├── marisqueria-galicia.jpg
-│       ├── panaderia-artesana.jpg
-│       └── fruteria-tropical.jpg
-│
-└── README.md
-```
-
----
-
-## 🎯 Objetivos Cumplidos
-
-✅ **Documento de Especificación Formal (DEF)** completo y profesional  
-✅ **Wireframes** de las 3 páginas principales  
-✅ **Mapeo semántico HTML5** detallado  
-✅ **Implementación HTML** semántica y válida  
-✅ **CSS responsive** sin frameworks  
-✅ **Accesibilidad** WCAG 2.1 Nivel A  
-✅ **Validación** W3C sin errores  
-✅ **README** con documentación completa
+**Documento de Especificación Formal (DEF)** completo y profesional  
+**Wireframes** de las 3 páginas principales  
+**Mapeo semántico HTML5** detallado  
+**Implementación HTML** semántica y válida  
+**CSS responsive** sin frameworks  
+**Accesibilidad** WCAG 2.1 Nivel A  
+**Validación** W3C sin errores  
+ **README** con documentación completa
 
 ---
 
@@ -348,4 +308,5 @@ Reto 1 - Primer Trimestre
 Este proyecto es un trabajo académico para el módulo de Diseño de Interfaces Web.
 
 ---
+
 
